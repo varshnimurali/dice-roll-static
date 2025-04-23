@@ -11,4 +11,5 @@ Rails.application.routes.draw do
 
   get("/dice/5/4", { :controller => "pages", :action => "five_four" })
   
+  get("", { :controller => "pages", :action => "home" })
 end
